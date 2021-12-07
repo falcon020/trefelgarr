@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafalgar</title>
+    <link rel="stylesheet" href="../style/normalize.css"> 
+    <link rel="stylesheet" href="../style/styles.css"> 
+    <link rel="stylesheet" href="../style/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../style/menuBar.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html">
+                <img class="logo" src="../img/logo.svg" width="160" height="41" alt="Trafalgar logo">
+            </a>
+        </div><!-- End of container -->
+    </div><!-- End of navbar -->
+    <div class="container main-body-container">
+        <div class="jsBar" >
+           <span class="fa fa-bars" onclick="openbar()"></span>
+        
+         </div>
+         <div class="sidebar" id="sidebar">
+             <div class="close" >
+              <span class="fa fa-times" onclick="closebar()"></span>
+        
+             </div>
+
+
+             <div class="titless">
+                 SideBar
+             </div>
+             <ul class="linkss">
+                 <li><a href="../index.html"><i class="fa fa-home" ></i>Home</a></li>
+                 <li><a href="../pages/service.html"><i class="fa fa-qrcode" ></i>Our Service</a></li>
+                 <li><a href="../pages/providers.html"><i class="fa fa-fire" ></i>Leading Healthcare providers</a></li>
+                 <li><a href="../pages/latestArticle.html"><i class="fa fa-pencil" ></i>Check Out Our latest Article</a></li>
+                 <li><a href="../pages/downloadApp.html"><i class="fa fa-download" ></i>Download Our Mobiile Apps</a></li>
+                 <li><a href="../pages/about_us.html"><i class="fa fa-user" ></i>About Us</a></li>
+             </ul>
+
+             <div class="social">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-facebook"></i>
+             </div>
+         </div>
+     </div>
+        <br>
+
+
+    <div class="container main-body-container">	
+        <div class="article-section">
+                <h2 class="article-section__heading">Check our latest article</h2>
+                <hr class="key-line article-line">
+                <ul class="article-section__list">
+                    <li class="article-section__list-item">
+                        <div class="img-wrapper">
+                            <img class="article-item__img" src="../img/blood-in.jpg" srcset="../img/blood-in.jpg 1x, ../img/blood-in@2x.jpg 2x" alt="Getting blood" width="350" height="240">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="article-item__heading">Disease detection, check up in the laboratory</h3>
+                            <p class="article-item__text">In this case, the role of the health laboratory is very important to do a disease detection...</p>
+                            <a class="article-item__link" href="#">Read more <img src="../img/right-arrow.svg" width="14" height="10" alt="Right arrow"></a>
+                        </div>
+                    </li>
+                    <li class="article-section__list-item">
+                        <div class="img-wrapper">
+                            <img class="article-item__img" src="../img/lab-img.png" srcset="../img/lab-img.png 1x, ../img/lab-img@2x.jpg 2x" alt="Labaratory room" width="350" height="240">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="article-item__heading">Herbal medicines that are safe for consumption</h3>
+                            <p class="article-item__text">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                            <a class="article-item__link" href="#">Read more <img src="../img/right-arrow.svg" width="14" height="10" alt="Right arrow"></a>
+                        </div>
+                    </li>
+                    <li class="article-section__list-item">
+                        <div class="img-wrapper">
+                            <img class="article-item__img" src="../img/face-mask.jpg" srcset="../img/face-mask.jpg 1x, ../img/face-mask@2x.jpg 2x" alt="Female face mask in green" width="350" height="240">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="article-item__heading">Natural care for healthy facial skin</h3>
+                            <p class="article-item__text">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
+                            <a class="article-item__link" href="#">Read more <img src="../img/right-arrow.svg" width="14" height="10" alt="Right arrow"></a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="button-wrapper">
+                    <a class="article-section__button button-white" href="#">View all</a>
+                </div>
+        </div><!-- End of article-section -->
+
+
+    </div>	
+    <script type="text/javascript" src="../main.js"></script>
+	</body>
+</html>

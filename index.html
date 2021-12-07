@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafalgar</title>
+    <link rel="stylesheet" href="./style/normalize.css"> 
+    <link rel="stylesheet" href="./style/styles.css"> 
+    <link rel="stylesheet" href="./style/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/menuBar.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html">
+                <img class="logo" src="img/logo.svg" width="160" height="41" alt="Trafalgar logo">
+            </a>
+        </div><!-- End of container -->
+    </div><!-- End of navbar -->
+    <div class="container main-body-container">
+        <div class="jsBar" >
+           <span class="fa fa-bars" onclick="openbar()"></span>
+        
+         </div>
+         <div class="sidebar" id="sidebar">
+             <div class="close" >
+              <span class="fa fa-times" onclick="closebar()"></span>
+        
+             </div>
+
+
+             <div class="titless">
+                 SideBar
+             </div>
+             <ul class="linkss">
+                 <li><a href="./index.html"><i class="fa fa-home" ></i>Home</a></li>
+                 <li><a href="./pages/service.html"><i class="fa fa-qrcode" ></i>Our Service</a></li>
+                 <li><a href="./pages/providers.html"><i class="fa fa-fire" ></i>Leading Healthcare providers</a></li>
+                 <li><a href="./pages/latestArticle.html"><i class="fa fa-pencil" ></i>Check Out Our latest Article</a></li>
+                 <li><a href="./pages/downloadApp.html"><i class="fa fa-download" ></i>Download Our Mobiile Apps</a></li>
+                 <li><a href="./pages/about_us.html"><i class="fa fa-user" ></i>About Us</a></li>
+             </ul>
+
+             <div class="social">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-facebook"></i>
+             </div>
+         </div>
+     </div>
+
+    <div class="main-body">
+        <div class="virtual-healthcare-section-wrapper">
+            <div class="container main-body-container">
+                <div class="virtual-healthcare-section">
+                    <div class="virtual-healthcare-section__left">
+                        <h1 class="virtual-healthcare-section__heading">Virtual healthcare for you</h1>
+                        <p class="virtual-healthcare-section__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                        <a class="virtual-healthcare-section__button button-blue" href="#">Consult today</a>
+                    </div>
+                    <img class="virtual-healthcare-section__img" src="img/trafalgar-header-illustration-1.png" srcset="img/trafalgar-header-illustration-1.png 1x, img/trafalgar-header-illustration-1.jpg 2x" width="693" height="598" alt="Doctor and patient are talking to each other.">
+                </div><!-- End of virtual-healthcare-section -->
+            </div><!-- End of container -->
+        </div>
+
+ 
+    </div><!-- End of footer -->
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
